@@ -64,6 +64,14 @@ register(
     reward_threshold=475.0,
 )
 
+
+register(
+    id='CartPole-v2',
+    entry_point='gym.envs.classic_control:CartPoleEnvV2',
+    max_episode_steps=100000000,
+    reward_threshold=475.0,
+)
+
 register(
     id='MountainCar-v0',
     entry_point='gym.envs.classic_control:MountainCarEnv',
